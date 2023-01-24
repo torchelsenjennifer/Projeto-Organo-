@@ -5,10 +5,6 @@
 /.pnp
 .pnp.js
 
-# package-lock file since it just causes merge conflicts
-package-lock.json
-package.json
-
 # testing
 /coverage
 
