@@ -6,20 +6,31 @@ background-color: #6278F7;
 background-image: url("../../../public/imagens/fundo.png");
 }
 
-.iconeF img{
+.iconeF{
     position: absolute;
-    padding: 100px 200px;
-    
+    padding: 100px 200px; 
 }
-/* .iconeF img:hover {
+
+/* .iconeF:hover {
     color: #0000;
 } */
-.iconeT img{
+
+.iconeT{
     position: absolute;
     padding: 100px 280px;
 }
 
-.iconeI img{
+.iconeI{
     position: absolute;
     padding: 100px 360px;
+}
+
+.logo{
+    position: absolute;
+    padding: 60px 650px;
+}
+
+.assinatura{
+    position: absolute;
+    padding: 60px 900px;
 }
