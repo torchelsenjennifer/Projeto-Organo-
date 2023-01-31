@@ -8,7 +8,7 @@ background-image: url("../../../public/imagens/fundo.png");
 
 .iconeF{
     position: absolute;
-    padding: 100px 200px; 
+    padding: 100px 100px; 
 }
 
 /* .iconeF:hover {
@@ -17,20 +17,20 @@ background-image: url("../../../public/imagens/fundo.png");
 
 .iconeT{
     position: absolute;
-    padding: 100px 280px;
+    padding: 100px 200px;
 }
 
 .iconeI{
     position: absolute;
-    padding: 100px 360px;
+    padding: 100px 300px;
 }
 
-.logo{
+/* .logo{
     position: absolute;
-    padding: 60px 650px;
+    padding: 60px 100px;
 }
 
 .assinatura{
     position: absolute;
-    padding: 60px 900px;
-}
+    padding: 60px 100px;
+} */
