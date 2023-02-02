@@ -8,22 +8,31 @@ export const Rodape = () =>{
 
 return(
         
-        <footer className='rodape'>
-                <div className='iconeF'>
+        <footer className='rodape' >
+                <div className='icone'>
+                        <div className='listaIcones'>
                         <a href='https://pt-br.facebook.com/AluraCursosOnline/'>
-                                <FaFacebook size={50}/>
+                                <FaFacebook size={30}/>
                         </a>
-                </div>
-                <div className='iconeT'>
                         <a href='https://twitter.com/AluraOnline'>
-                                <FaTwitter size={50}/>
+                                <FaTwitter size={30} />
                         </a>
-                </div>
-                <div className='iconeI'>
                         <a href='https://www.instagram.com/aluraonline/'>
-                                <FaInstagram size={50}/>
+                                <FaInstagram size={30}/>
                         </a>
+                        </div>
                 </div>
+                <div className='logo'>
+                        <img src={process.env.PUBLIC_URL + "/imagens/logo.png"}></img>
+                </div>
+                <div className='assinatura'>
+                        <h4>
+                                Desenvolvido pela Alura.
+                        </h4>
+                </div>
+
+                
+                     
    
         </footer>
 )
