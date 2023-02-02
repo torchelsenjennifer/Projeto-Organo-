@@ -21,27 +21,37 @@ justify-content: space-evenly;
 .icone .listaIcones {
     display: flex;
     justify-content: space-evenly;
-    /* background-color: #6278F7; */
+    background-color: #6278F7;
 }
 
 .logo{
     width: 20%;
+    display: flex;
     /* background-color: green; */
+    justify-content: space-evenly; 
+    flex-direction: column;
 }
 
 .logo img{
     
     width: 80%;
+    display: flex;
+    justify-content: space-evenly;
     padding: 10%;
 }
 
 .assinatura{
     width: 20%;
+    display: flex;
     /* background-color: red; */
+    justify-content: space-evenly; 
+    flex-direction: column;
 } 
 
 .assinatura h4{
     color: #FFFFFF;
+    display: flex;
+    justify-content: space-evenly;
     font-size: 15px;
     padding: 15%;
 }
