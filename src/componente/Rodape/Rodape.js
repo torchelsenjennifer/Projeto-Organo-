@@ -1,5 +1,5 @@
 import './Rodape.css'
-import { FaFacebook, FaTwitter, FaInstagram } from 'react-icons/fa'
+import { FaFacebook, FaInstagram, FaLinkedin } from 'react-icons/fa'
 
 
 //COMPONENTE 
@@ -11,13 +11,13 @@ return(
         <footer className='rodape' >
                 <div className='icone'>
                         <div className='listaIcones'>
-                        <a href='https://pt-br.facebook.com/AluraCursosOnline/'>
+                        <a href='https://www.facebook.com/jennifer.torchelsen.5/'>
                                 <FaFacebook size={30}/>
                         </a>
-                        <a href='https://twitter.com/AluraOnline'>
-                                <FaTwitter size={30} />
+                        <a href='https://www.linkedin.com/in/jennifer-schwanz-torchelsen/'>
+                                <FaLinkedin size={30} />
                         </a>
-                        <a href='https://www.instagram.com/aluraonline/'>
+                        <a href='https://www.instagram.com/jennifer_torchelsen/'>
                                 <FaInstagram size={30}/>
                         </a>
                         </div>
@@ -27,7 +27,7 @@ return(
                 </div>
                 <div className='assinatura'>
                         <h4>
-                                Desenvolvido pela Alura.
+                                Desenvolvido pela Jennifer.
                         </h4>
                 </div>
 
