@@ -10,7 +10,7 @@ const Time = (props) => {
               <h3 style={risco}>{props.nome}</h3>
         <div className='colaboradores'>
             {props.colaboradores.map(colaborador =><Colaborador 
-            corDoFundo={props.corDoFundo}
+            corDeFundo={props.corDoFundo}
             key={colaborador.nome}
             nome={colaborador.nome} 
             cargo={colaborador.cargo} 
