@@ -27,7 +27,7 @@ return(
                 </div>
                 <div className='assinatura'>
                         <h4>
-                                Desenvolvido pela Jennifer.
+                                Desenvolvido por Jennifer Torchelsen.
                         </h4>
                 </div>
 
